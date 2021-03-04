@@ -1,0 +1,16 @@
+database = concessionario
+
+tabella = cars
+
+
+cars_id        PK      BIGINT                           AUTO_INCREMENT
+casa_automob           VARCHAR            NOTNULL
+nome                   VARCHAR            NOTNULL
+modello                VARCHAR            NOTNULL
+km                     FLOAT(6,3)         NOTNULL
+colore                 VARCHAR(20)
+prezzo                 DOUBLE(5,3)        NOTNULL
+porte                  SMALL              NOTNULL
+alimentazione          VARCHAR            NOTNULL
+immatricolazione       DATE                             UNIQUE
+unico_proprietario     TINYNT             NOTNULL
